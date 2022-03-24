@@ -23,3 +23,27 @@ main {
 .carousel-caption {
   top: 50%;
 }
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100% !important;
+  }
+}
+/* sm */
+@media (min-width: 769px) and (max-width: 991px) {
+  .carousel-item img {
+    width: 75% !important;
+  }
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .carousel-item img {
+    width: 50% !important;
+  }
+}
+/* lg */
+@media (min-width: 1201px) {
+  .carousel-item img {
+    width: 25% !important;
+  }
+}

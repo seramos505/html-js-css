@@ -39,7 +39,7 @@ function SlidersHTML(products) {
     activeClass = slides.length == 0 ? " active " : "";
     html = `<div class="carousel-item ${activeClass}">
                 <img src="${item.imagen}"
-                    class="d-block w-25 mx-auto" alt="${item.alt}">
+                    class="d-block mx-auto" alt="${item.alt}">
                 <div class="carousel-caption d-md-block">
                     <h3>${item.titulo}</h3>
                     <p>L${item.subtitulo}</p>
