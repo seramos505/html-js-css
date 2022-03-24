@@ -1,0 +1,20 @@
+[
+  {
+    "imagen": "https://www.america-today.com/on/demandware.static/-/Sites-at-master-catalog/default/dw8063b12b/images/product/levis-sweater-women-black-2212508024-100-f.png",
+    "titulo": "LEVI'S SWEATER",
+    "subtitulo": "Levi's sweater voor dames.",
+    "alt": "Un texto Alt"
+  },
+  {
+    "imagen": "https://www.america-today.com/on/demandware.static/-/Sites-at-master-catalog/default/dwba07a790/images/product/tshirt-print-men-blue-1252002396-317-f.png",
+    "titulo": "T-SHIRT PRINT",
+    "subtitulo": "America Today T-shirt.",
+    "alt": "Un texto Alt"
+  },
+  {
+    "imagen": "https://www.america-today.com/on/demandware.static/-/Sites-at-master-catalog/default/dwdc2a6ce7/images/product/blue-1312002319-359-f.png",
+    "titulo": "JAS CAPUCHON",
+    "subtitulo": "De Jasper jas heeft",
+    "alt": "Un texto Alt"
+  }
+]

@@ -1,0 +1,25 @@
+html {
+  height: 100vh;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(90deg, white 50%, blue 50%);
+}
+main {
+  height: 90vh;
+}
+.nav-link {
+  color: rgb(5, 5, 46) !important;
+}
+.carousel {
+  height: 90vh;
+}
+.carousel-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.carousel-caption {
+  top: 50%;
+}

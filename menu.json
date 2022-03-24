@@ -1,0 +1,22 @@
+[
+  {
+    "titulo": "Inicio",
+    "url": "#",
+    "icono": "fa-solid fa-house"
+  },
+  {
+    "titulo": "Productos",
+    "url": "#",
+    "icono": "fa-brands fa-product-hunt"
+  },
+  {
+    "titulo": "Contacto",
+    "url": "#",
+    "icono": "fa-solid fa-envelope"
+  },
+  {
+    "titulo": "Carrito",
+    "url": "#",
+    "icono": "fa-solid fa-cart-shopping"
+  }
+]
