@@ -6,14 +6,20 @@ body {
   background: linear-gradient(90deg, white 50%, blue 50%);
 }
 main {
-  height: 90vh;
+  height: 85vh;
 }
 .nav-link {
   color: rgb(5, 5, 46) !important;
 }
-.carousel {
-  height: 90vh;
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(5, 5, 46);
+  width: 40px;
+  height: 5px;
 }
+
+/* .carousel {
+  height: 90vh;
+} */
 .carousel-inner {
   height: 100%;
   display: flex;
@@ -24,26 +30,54 @@ main {
   top: 50%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 576px) {
   .carousel-item img {
     width: 100% !important;
   }
 }
-/* sm */
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 576.01px) and (max-width: 768px) {
   .carousel-item img {
-    width: 75% !important;
+    width: 70% !important;
   }
 }
-/* md */
-@media (min-width: 992px) and (max-width: 1200px) {
+
+@media (min-width: 768.01px) and (max-width: 992px) {
   .carousel-item img {
     width: 50% !important;
   }
 }
-/* lg */
-@media (min-width: 1201px) {
+
+@media (min-width: 992.01px) and (max-width: 1200px) {
+  .carousel-item img {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 1200.01px) and (max-width: 1400px) {
+  .carousel-item img {
+    width: 26% !important;
+  }
+}
+
+@media (min-width: 1400px) {
   .carousel-item img {
     width: 25% !important;
   }
+}
+
+#items-menu a {
+  text-decoration: none !important;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s !important;
+  width: fit-content;
+}
+#items-menu a:hover,
+#items-menu a:focus {
+  background-size: 100% 2px;
+}
+footer a {
+  text-decoration: none !important;
 }
