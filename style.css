@@ -35,31 +35,36 @@ main {
     width: 100% !important;
   }
 }
-@media (min-width: 576.01px) and (max-width: 768px) {
+@media (orientation: portrait) and (min-width: 576.01px) and (max-width: 768px) {
   .carousel-item img {
     width: 70% !important;
   }
 }
 
-@media (min-width: 768.01px) and (max-width: 992px) {
+@media (orientation: portrait) and (min-width: 768.01px) and (max-width: 992px) {
   .carousel-item img {
     width: 50% !important;
   }
 }
 
-@media (min-width: 992.01px) and (max-width: 1200px) {
+@media (orientation: portrait) and (min-width: 992.01px) and (max-width: 1200px) {
   .carousel-item img {
     width: 40% !important;
   }
 }
 
-@media (min-width: 1200.01px) and (max-width: 1400px) {
+@media (orientation: portrait) and (min-width: 1200.01px) and (max-width: 1400px) {
   .carousel-item img {
     width: 26% !important;
   }
 }
 
-@media (min-width: 1400px) {
+@media (orientation: portrait) and (min-width: 1400px) {
+  .carousel-item img {
+    width: 25% !important;
+  }
+}
+@media (orientation: landscape) {
   .carousel-item img {
     width: 25% !important;
   }
